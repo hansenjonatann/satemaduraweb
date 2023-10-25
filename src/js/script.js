@@ -33,3 +33,10 @@ window.onclick = function (event) {
 const handleBackToIndex = () => {
   window.location.href = "index.html";
 };
+
+const menuBtn = document.getElementById("menuBtn");
+const menuItems = document.getElementById("menuItems");
+
+menuBtn.addEventListener("click", () => {
+  menuItems.classList.toggle("hidden");
+});
