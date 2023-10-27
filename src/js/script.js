@@ -40,3 +40,7 @@ const menuItems = document.getElementById("menuItems");
 menuBtn.addEventListener("click", () => {
   menuItems.classList.toggle("hidden");
 });
+
+const handleLogin = () => {
+  window.location.href = "index.html";
+};
